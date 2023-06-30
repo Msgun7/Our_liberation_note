@@ -14,10 +14,17 @@ from user.models import UserGroup
 from user.serializers import GroupSerializer
 
 from .models import Comment, Note, PhotoPage, PlanPage, Stamp
-from .serializers import (CommentSerializer, DetailNoteSerializer,
-                          DetailPhotoPageSerializer, MarkerSerializer,
-                          NoteSerializer, PatchPhotoPageSerializer,
-                          PhotoPageSerializer, PlanSerializer, StampSerializer)
+from .serializers import (
+    CommentSerializer,
+    DetailNoteSerializer,
+    DetailPhotoPageSerializer,
+    MarkerSerializer,
+    NoteSerializer,
+    PatchPhotoPageSerializer,
+    PhotoPageSerializer,
+    PlanSerializer,
+    StampSerializer,
+)
 
 
 # 노트 조회 및 생성
