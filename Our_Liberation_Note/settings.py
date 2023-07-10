@@ -123,6 +123,7 @@ DATABASES = {
 
 # 이미지 삽입
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+FILE_UPLOAD_MAX_MEMORY_SIZE = 10485760
 # MEDIA_URL = "/media/"
 
 
